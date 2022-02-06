@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.75375888.css","mappings":"AAAA,gCACI,eAAiB,CCDrB,uBAEI,iBADA,SACiB","sources":["components/BasicLayout/BasicLayout.module.scss","pages/MainPage/MainPage.module.scss"],"sourcesContent":["#mainContent {\n    background: white;\n}","#hello {\n    color: red;\n    background: green;\n}"],"names":[],"sourceRoot":""}

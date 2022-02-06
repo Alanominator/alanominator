@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/alanominator/static/js/main.fbf7c1ce.js",
-    "index.html": "/alanominator/index.html",
-    "main.fbf7c1ce.js.map": "/alanominator/static/js/main.fbf7c1ce.js.map"
+    "main.css": "/static/css/main.75375888.css",
+    "main.js": "/static/js/main.aac24c84.js",
+    "index.html": "/index.html",
+    "main.75375888.css.map": "/static/css/main.75375888.css.map",
+    "main.aac24c84.js.map": "/static/js/main.aac24c84.js.map"
   },
   "entrypoints": [
-    "static/js/main.fbf7c1ce.js"
+    "static/css/main.75375888.css",
+    "static/js/main.aac24c84.js"
   ]
 }
