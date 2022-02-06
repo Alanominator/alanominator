@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alanominator/static/css/main.073c9b0a.css",
+    "main.js": "/alanominator/static/js/main.7ee0f38a.js",
+    "static/js/787.4f94312a.chunk.js": "/alanominator/static/js/787.4f94312a.chunk.js",
+    "static/media/logo.svg": "/alanominator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/alanominator/index.html",
+    "main.073c9b0a.css.map": "/alanominator/static/css/main.073c9b0a.css.map",
+    "main.7ee0f38a.js.map": "/alanominator/static/js/main.7ee0f38a.js.map",
+    "787.4f94312a.chunk.js.map": "/alanominator/static/js/787.4f94312a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7ee0f38a.js"
+  ]
+}
