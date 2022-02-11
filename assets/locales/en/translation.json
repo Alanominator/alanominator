@@ -1,3 +1,20 @@
 {
-    "welcome_message": "Welcome {{name}}"
+    "main-content": {
+        "menu": {
+            "nav": {
+                "main-page": "Main page",
+                "contact-me": "Contact Me Page"
+            }
+        }
+    },
+    "pages": {
+        "main-page": {
+            "title": "Main page",
+            "content": "Some text in English. There'is support of several languages. Main base of the application is almost done."
+        },
+        "contact-me-page": {
+            "title": "Contact Me Page",
+            "content": "Page with my contacts."
+        }
+    }
 }

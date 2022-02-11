@@ -1,3 +1,20 @@
 {
-    "welcome_message": "Bienvenidos {{name}}"    
+    "main-content": {
+        "menu":{
+            "nav": {
+                "main-page": "Pagina principal",
+                "contact-me": "Página de contactoа"
+            }
+        }
+    },
+    "pages": {
+        "main-page": {
+            "title":"Pagina principal",
+            "content": "Algún texto en español. Hay soporte de varios idiomas. La base principal de la aplicación está casi terminada."
+        },
+        "contact-me-page": {
+            "title": "Página de contacto",
+            "content": "Pagina con mis contactos."
+        }
+    }
 }

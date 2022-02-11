@@ -1,0 +1,20 @@
+{
+    "main-content": {
+        "menu":{
+            "nav": {
+                "main-page": "Bosh sahifa",
+                "contact-me": "Aloqa sahifasi"
+            }
+        }
+    },
+    "pages": {
+        "main-page": {
+            "title":"Bosh sahifa",
+            "content": "Uzbek tilidagi ba'zi matn. Bir nechta tillar qo'llab-quvvatlanadi. Ilovaning asosiy bazasi deyarli tayyor."
+        },
+        "contact-me-page": {
+            "title": "Men bilan bog'lanish sahifasi",
+            "content": "Mening kontaktlarim bilan sahifa."
+        }
+    }
+}
