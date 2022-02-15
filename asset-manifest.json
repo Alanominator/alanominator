@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/alanominator/static/css/main.5c6f0a99.css",
-    "main.js": "/alanominator/static/js/main.9ea4968e.js",
+    "main.css": "/alanominator/static/css/main.0bfdd2e3.css",
+    "main.js": "/alanominator/static/js/main.bac13037.js",
     "index.html": "/alanominator/index.html",
     "static/media/getFetch.cjs": "/alanominator/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.5c6f0a99.css.map": "/alanominator/static/css/main.5c6f0a99.css.map",
-    "main.9ea4968e.js.map": "/alanominator/static/js/main.9ea4968e.js.map"
+    "main.0bfdd2e3.css.map": "/alanominator/static/css/main.0bfdd2e3.css.map",
+    "main.bac13037.js.map": "/alanominator/static/js/main.bac13037.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c6f0a99.css",
-    "static/js/main.9ea4968e.js"
+    "static/css/main.0bfdd2e3.css",
+    "static/js/main.bac13037.js"
   ]
 }
