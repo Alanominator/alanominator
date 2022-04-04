@@ -1,20 +1,44 @@
 {
-    "main-content": {
+    "main_content": {
         "menu": {
-            "nav": {
-                "main-page": "Main page",
-                "contact-me": "Contact Me Page"
-            }
-        }
-    },
-    "pages": {
-        "main-page": {
-            "title": "Main page",
-            "content": "Some text in English. There'is support of several languages. Main base of the application is almost done."
+            "top_content": {
+                "login": "Login",
+                "register": "Register"
+            },
+            "main": "main",
+            "about_me": "about me",
+            "contact_me": "contact me",
+            "main_page": "Main page",
+            "about_me_page": "About me page",
+            "contact_me_page": "Contact Me Page"
         },
-        "contact-me-page": {
-            "title": "Contact Me Page",
-            "content": "Page with my contacts."
+        "footer": {
+            "dbak": "Developed by Alanominator kiborg"
+        },
+        "pages": {
+            "auth_pages": {
+                "login": "login",
+                "register": "register",
+                "activate_account": "activate_account",
+                "cancel_registration": "cancel registration",
+                "rap": "resend activation password",
+                "sign_in": "sign in",
+                "sign_up": "sign up",
+                "dha": "Don't have an account?",
+                "aha": "Already have an account?",
+                "dynh": "Do you need help?",
+                "username": "username",
+                "email": "email",
+                "first_name": "first name",
+                "last_name": "last name",
+                "password": "password",
+                "re_password": "re-password",
+                "pmcalxc": "Password must contain at least 8 characters",
+                "pmm": "Passwords must match",
+                "required": "required",
+                "ief": "Invalid email format",
+                "smthww": "something went wrong. Try again."
+            }
         }
     }
 }
