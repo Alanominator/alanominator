@@ -10,6 +10,10 @@ object-assign
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
+/*! iNoBounce - v0.1.6
+* https://github.com/lazd/iNoBounce/
+* Copyright (c) 2013 Larry Davis <lazdnet@gmail.com>; Licensed BSD */
+
 /*! js-cookie v3.0.1 | MIT */
 
 /**
