@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalanominator=self.webpackChunkalanominator||[]).push([[282],{2282:function(n,a,e){e.r(a),e.d(a,{default:function(){return t}});e(390);var r=e(2559);var t=function(){return(0,r.jsx)(r.Fragment,{children:"AboutMePage"})}}}]);
+//# sourceMappingURL=282.afe321c2.chunk.js.map
