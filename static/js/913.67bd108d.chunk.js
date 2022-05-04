@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkalanominator=self.webpackChunkalanominator||[]).push([[913],{913:function(i,n,s){s.r(n);s(390);var r=s(1314),t=s(2559);n.default=function(){return(0,t.jsxs)("div",{children:[(0,t.jsx)("h2",{children:"Admin"}),(0,t.jsx)(r.rU,{to:"visitors_ips",children:"visitors ips"})]})}}}]);
-//# sourceMappingURL=913.67bd108d.chunk.js.map
