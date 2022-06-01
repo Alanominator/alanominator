@@ -1,1 +1,3 @@
-### this site is available at http://Alanominator.github.io/alanominator
+### My personal site-resume 
+
+available at https://Alanominator.github.io/alanominator/

@@ -16,6 +16,11 @@
             "dbak": "Разработано Alanominator kiborg"
         },
         "pages": {
+            "main_page": {
+                "header1": "аланоминатор киборг",
+                "header2": "Python фуллстак веб-разработчик",
+                "scroll_down": "проскролить вниз"
+            },
             "auth_pages": {
                 "login": "войти",
                 "register": "зарегистрироваться",

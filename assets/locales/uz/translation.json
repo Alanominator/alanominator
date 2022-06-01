@@ -8,6 +8,12 @@
             "main_page": "Bosh sahifa",
             "about_me_page": "pro mnye",
             "contact_me_page": "Aloqa sahifasi"
+        },
+        "pages": {
+            "main_page": {
+                "header2": "Python fullstack veb-ishlab chiqaruvchi",
+                "scroll_down": "pastga aylantirish"
+            }
         }
     }
 }

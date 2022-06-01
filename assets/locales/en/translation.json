@@ -16,6 +16,10 @@
             "dbak": "Developed by Alanominator kiborg"
         },
         "pages": {
+            "main_page": {
+                "header2": "Python fullstack web-developer",
+                "scroll_down": "scroll down"
+            },
             "auth_pages": {
                 "login": "login",
                 "register": "register",
