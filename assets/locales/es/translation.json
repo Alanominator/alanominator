@@ -1,0 +1,19 @@
+{
+    "main_content": {
+        "menu": {
+            "top_content": {
+                "login": "entrenar",
+                "register": "Register"
+            },
+            "main_page": "Pagina principal",
+            "about_me_page": "Para me",
+            "contact_me_page": "Página de contactoа"
+        },
+        "pages": {
+            "main_page": {
+                "header2": "Python fullstack desarrollador web",
+                "scroll_down": "desplazarse hacia abajo"
+            }
+        }
+    }
+}
