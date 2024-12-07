@@ -1,0 +1,211 @@
+{
+    "test": "sinov",
+    "nav": {
+        "main": "asosiy",
+        "portfolio": "portfel",
+        "about_me": "men haqimda",
+        "contact_me": "menga murojaat qiling"
+    },
+    "menu": {
+        "greeting": "Salom, {{name}}",
+        "go_to_chat": "Chatga o'tish!"
+    },
+    "auth": {
+        "login": "kiring",
+        "register": "ro'yxatdan o'tish",
+        "login_with": "bilan kiring",
+        "no_account_prompt": "Hisobingiz yo'qmi?",
+        "forgot_password": "Parolni unuttingizmi?",
+        "reset_password": "Parolni tiklash",
+        "reset_password_code_prompt": "Parolni tiklash (Biz sizning elektron pochtangizga yuborgan kodni kiriting)",
+        "reset_password_new_password_prompt": "Parolni tiklash (Yangi parolni kiriting)",
+        "reset_password_success": "Parolingiz muvaffaqiyatli o'zgartirildi",
+        "next": "Keyingi",
+        "finish": "Tamomlash",
+        "cancel": "Bekor qilish"
+    },
+    "form_input_errors": {
+        "required": "Talab qilinadi",
+        "invalid_email": "Noto'g'ri elektron pochta formati",
+        "short_password": "Parol {{min_length}} ta belgidan iborat bo'lishi kerak",
+        "password_matching_required": "Parol va uning tasdiqlanishi mos kelishi kerak"
+    },
+    "http_request_errors": {
+        "network_error": "tarmoq xatosi"
+    },
+    "user_settings": {
+        "account": "hisob",
+        "privacy": "maxfiylik",
+        "sessions": "sessiyalar",
+        "username": "foydalanuvchi nomi",
+        "email": "elektron pochta",
+        "first_name": "ism",
+        "last_name": "familiya",
+        "description": "ta'rif",
+        "email_visible": "elektron pochta ko'rinadi",
+        "change_password": "parolni o'zgartirish",
+        "see_sessoins": "sessiyalarni ko'rish",
+        "logout": "chiqish",
+        "logout_all": "hammasidan chiqish",
+        "logout_other": "boshqalardan chiqish"
+    },
+    "main_page": {
+        "intro": {
+            "representment": "Python fullstack veb-ishlab chiquvchisi",
+            "scroll_down": "pastga aylantiring"
+        },
+        "main_info": {
+            "download_resume": "Rezyumeni yuklab olish",
+            "resume_extensions_info": "Rezyume bir nechta kengaytmalarda mavjud",
+            "download_resume_in": "Rezyumeni yuklab olish",
+            "professional_summary": {
+                "hello_i_am": "Salom. Men",
+                "alan": "Alan",
+                "hello_who_am_i": "Men asosan veb-ilovalar yaratishga asoslangan ishlab chiquvchiman. Men ishlab chiqaman",
+                "frontend": "turli texnologiyalar, masalan, React, Gulp, Jinja2 va boshqalar bilan moslashuvchan bir sahifali yoki ko'p sahifali ilovalar. Veb-ilovada men nafaqat interfeysni, balki frontend bilan o'zaro aloqalar, ma'lumotlarni qayta ishlash, ma'lumotlarni renderlash, serverga so'rovlar, API yozaman.",
+                "backend": "veb-serverlar. Men RESTful API, ServerSideRendering, websockets va boshqalarni sozlayman. Asosiy stek FastAPI va shuningdek, men Django'dan foydalanishga odatlanganman.",
+                "databases": "ma'lumotlar bazalari. Jadval tuzilishi / so'rovlar dizaynini yaratish...",
+                "parsing": "veb-saytlar ma'lumotlarini skraping (parsing). Saytlardan kerakli ma'lumotlarni so'rovlar bilan chiqarish, ularni qayta ishlash va kerakli formatda saqlash (.txt, .csv, .json).",
+                "bots": "botlar. Ijtimoiy tarmoqlardagi vazifalarni avtomatlashtirish."
+            },
+            "titles": {
+                "technical_skills": "Texnik ko'nikmalar",
+                "languages": "Tillari",
+                "libraries_and_frameworks": "Eng ko'p ishlatiladigan kutubxonalar va freymvorklar",
+                "databases": "Ma'lumotlar bazalari",
+                "instruments": "Asboblar",
+                "operation_systems": "Operatsion tizimlar",
+                "social_networks": "Ijtimoiy tarmoqlar",
+                "hobbies_and_interests": "Hobbi va qiziqishlar"
+            },
+            "technical_skills": {
+                "algorithms": "algoritmlar",
+                "data_structures": "ma'lumotlar tuzilmalari",
+                "frontend": "frontend",
+                "backend": "backend",
+                "databases": "ma'lumotlar bazalari",
+                "parsing": "parsing",
+                "bots": "botlar"
+            },
+            "skill_item_hints": {
+                "html": "HTML (HyperText Markup Language) — bu veb-brauzerda ko'rsatish uchun mo'ljallangan hujjatlar uchun standart belgilash tili. U kaskad uslublar jadvallari va JavaScript kabi skript tillari kabi texnologiyalar bilan yordam berishi mumkin.",
+                "css": "CSS (Cascading Style Sheets) — bu HTML kabi belgilash tilida yozilgan hujjatning taqdimotini tasvirlash uchun ishlatiladigan uslublar jadvallari tili. CSS — bu HTML va JavaScript bilan birga, Butun Dunyo Tarmog'ining asosiy texnologiyalaridan biridir. CSS taqdimot va mazmunni ajratishni ta'minlash uchun mo'ljallangan, jumladan, maket, ranglar va shriftlar. SCSS yordamida biz CSSga qo'shimcha funktsiyalar qo'shishimiz mumkin, masalan, ichki, mixin, o'zgaruvchilar va boshqalar. Barcha ushbu qo'shimcha funktsiyalar CSSni an'anaviy CSSga qaraganda ancha oson va tez yozishga yordam beradi.",
+                "js": "JavaScript, ko'pincha JS deb qisqartiriladi, bu HTML va CSS bilan birga Butun Dunyo Tarmog'ining asosiy texnologiyalaridan biridir. 97% dan ortiq veb-saytlar veb-sahifalar xulq-atvorini ta'minlash uchun mijoz tomonida JavaScriptdan foydalanadi, ko'pincha uchinchi tomon kutubxonalarini o'z ichiga oladi.",
+                "python": "Python — bu HTML va CSS bilan birga Butun Dunyo Tarmog'ining asosiy texnologiyalaridan biri. 97% dan ortiq veb-saytlar veb-sahifalar xulq-atvorini ta'minlash uchun Python'dan foydalanadi, ko'pincha uchinchi tomon kutubxonalarini o'z ichiga oladi.",
+                "typescript": "TypeScript — bu Microsoft tomonidan ishlab chiqilgan va qo'llab-quvvatlanadigan dasturlash tili. Bu JavaScriptning qat'iy sintaktik superto'plami bo'lib, tilga ixtiyoriy statik tiplashni qo'shadi. Katta ilovalarni ishlab chiqish uchun mo'ljallangan va JavaScriptga transpilyatsiya qilinadi.",
+                "sql": "SQL (Structured Query Language) — bu ma'lumotlar bazasini yaratish va manipulyatsiya qilish uchun standart til. Bu ma'lumotlarni boshqarish uchun ishlatiladigan domenga xos til, ayniqsa, munosabatlar o'rtasidagi aloqalarni va o'zgaruvchilarni o'z ichiga olgan ma'lumotlar bilan ishlashda foydalidir.",
+                "react": "React — bu UI komponentlariga asoslangan foydalanuvchi interfeyslarini qurish uchun ochiq manbali JavaScript kutubxonasi. Uni Meta va individual ishlab chiquvchilar va kompaniyalar jamoasi qo'llab-quvvatlaydi. React bir sahifali, mobil yoki serverda render qilingan ilovalarni ishlab chiqishda asos sifatida ishlatilishi mumkin.",
+                "fastapi": "FastAPI — bu Python 3.6+ bilan API qurish uchun zamonaviy, yuqori samarali veb-freymvork bo'lib, standart Python turidagi ko'rsatmalarga asoslanadi. U avtomatik ravishda interaktiv API hujjatlarini yaratadi va asinxron dasturlashni qo'llab-quvvatlaydi, bu esa uni yuqori raqobatli ilovalar uchun mos qiladi. FastAPI veb qism uchun Starlette va ma'lumotlarni tasdiqlash uchun Pydantic ustida qurilgan.",
+                "celery": "Celery tizimi bir nechta ishchilar va brokerlardan iborat bo'lishi mumkin, bu esa yuqori mavjudlik va gorizontal kengayishni ta'minlaydi. Celery Python'da yozilgan, ammo protokol har qanday tilda amalga oshirilishi mumkin. Python'dan tashqari, Node.js uchun node-celery, PHP mijoz, golang uchun gocelery va Rust uchun rusty-celery mavjud.",
+                "django": "Django — bu model-shablon-ko'rinish arxitektura shabloniga amal qiluvchi bepul va ochiq manbali veb-freymvork. U AQShda 501 raqamli notijorat tashkilot sifatida tashkil etilgan Django Dasturiy Ta'minot Jamg'armasi tomonidan qo'llab-quvvatlanadi. Django'ning asosiy maqsadi murakkab, ma'lumotlar bazasi bilan boshqariladigan veb-saytlarni yaratishni osonlashtirishdir.",
+                "aiogram": "aiogram — bu Telegram Bot API uchun to'liq asinxron freymvork.",
+                "pyrogram": "Pyrogram — bu Telegram API bilan o'zaro aloqada bo'lish uchun Python kutubxonasi bo'lib, Telegram botlari va mijoz ilovalarini yaratish uchun mo'ljallangan. U xabarlarni yuborish, chatlarni boshqarish va yangilanishlarni boshqarish uchun oddiy va samarali interfeysni taqdim etadi. Pyrogram sinxron va asinxron dasturlashni qo'llab-quvvatlaydi, bu esa ishlab chiquvchilarga javob beruvchi ilovalarni yaratishga imkon beradi. U Telegram API ustida qurilgan va foydalanuvchi autentifikatsiyasi, xabarlarni boshqarish va media yuklash kabi xususiyatlarni taklif etadi, bu esa uni Telegram botlarini ishlab chiqish uchun kuchli vosita qiladi.",
+                "postgres": "PostgreSQL, shuningdek, Postgres deb ham ataladi, bu kengaytirilishi va SQLga muvofiqligini ta'kidlaydigan bepul va ochiq manbali relatsion ma'lumotlar bazasi boshqaruv tizimidir.",
+                "git": "Git — bu dasturiy ta'minot ishlab chiqish jarayonida dasturchilar o'rtasida hamkorlikda ishlab chiqilgan manba kodini muvofiqlashtirish uchun odatda ishlatiladigan har qanday fayl to'plamidagi o'zgarishlarni kuzatish uchun dasturiy ta'minotdir. Uning maqsadlari tezlik, ma'lumotlar yaxlitligi va tarqatilgan, noaniq ish jarayonlarini qo'llab-quvvatlashni o'z ichiga oladi.",
+                "docker": "Docker Python — bu ochiq manbali vosita va standart yuklash konteyneridir. Ushbu vosita har qanday ilovani dasturiy konteyner ichida joylashtirishni avtomatlashtirish uchun ishlatiladi. Biz ilovamizni ishlab chiqayotganimizda, barcha bog'liqliklarni, masalan, ma'lumotlar bazasi, veb-server va boshqa turdagi kutubxonalarni taqdim etib, veb-ilovamizni qanday qilib",
+                "rabbitmq": "RabbitMQ — bu ilovalar o'rtasida xabarlarni yuborish orqali aloqa o'rnatishga yordam beradigan ochiq manbali xabar brokeridir. U Advanced Message Queuing Protocol (AMQP) ni amalga oshiradi va nashr/qabul qilish va so'rov/ javob kabi turli xabar almashish naqshlarini qo'llab-quvvatlaydi. RabbitMQ ishonchlilik, kengaytirilish va moslashuvchanlik uchun mo'ljallangan, bu esa ishlab chiquvchilarga yuqori samarali xabar almashish imkonini beradigan tarqatilgan tizimlar va mikroservislar yaratishga imkon beradi.",
+                "redis": "Redis — bu ma'lumotlar bazasi, kesh va xabar brokeri sifatida ishlatiladigan ochiq manbali, xotirada saqlanadigan ma'lumotlar tuzilmalari do'koni. U qatorlar, xeshlar, ro'yxatlar, to'plamlar va boshqalar kabi turli ma'lumotlar turlarini qo'llab-quvvatlaydi. Redis yuqori samaradorligi va past kechikishi bilan tanilgan, bu esa uni real vaqt ilovalari uchun ideal qiladi. U shuningdek, doimiylik, replikatsiya va pub/sub xabarlash kabi xususiyatlarni taqdim etadi, bu esa ishlab chiquvchilarga kengaytiriladigan va samarali ilovalarni yaratishga imkon beradi.",
+                "vscode": "Visual Studio Code (VSCode) — bu Microsoft tomonidan ishlab chiqilgan bepul va ochiq manbali kod tahrirlovchisi. U bir nechta dasturlash tillarini qo'llab-quvvatlaydi va sintaksisni ajratish, xatolarni tuzatish, versiyalarni boshqarish va kengaytirilgan funksionallik uchun kengaytmalar kabi xususiyatlarni taklif etadi. VSCode juda moslashuvchan bo'lib, ishlab chiquvchilarga o'zlarining dasturlash muhitlarini o'z ehtiyojlariga moslashtirish imkonini beradi. Uning ichki terminali va masofaviy rivojlanishni qo'llab-quvvatlashi uni ishlab chiquvchilar o'rtasida turli dasturlash vazifalari uchun mashhur tanlovga aylantiradi.",
+                "linux": "Linux — bu Linux yadroga asoslangan ochiq manbali Unixga o'xshash operatsion tizimlar oilasidir, bu yadro 1991-yil 17-sentabrda Linus Torvalds tomonidan birinchi marta chiqarilgan.",
+                "windows": "Microsoft Windows — bu Microsoft tomonidan ishlab chiqilgan va sotilgan xususiy grafik operatsion tizimlar qatoridir."
+            },
+            "languages": {
+                "languages": {
+                    "russian": "Rus",
+                    "english": "Ingliz",
+                    "spanish": "Ispan",
+                    "uzbek": "O'zbek"
+                },
+                "level": {
+                    "intermediate": "O'rta",
+                    "fluent": "Erkin",
+                    "elementary": "Boshlang'ich"
+                }
+            },
+            "hobbies_and_interests": {
+                "guitar": "Gitarada o'ynash",
+                "languages": "Tillarning o'rganilishi"
+            }
+        }
+    },
+    "portfolio_page": {
+        "filter_by_category": "Kategoriya bo'yicha filtrlash",
+        "all": "hamma",
+        "item": {
+            "category": "Kategoriya",
+            "look": "Ko'rinish"
+        },
+        "items_content": {
+            "telegram_clone": {
+                "title": "Telegram kloni"
+            }
+        }
+    },
+    "about_me_page": {},
+    "contact_me_page": {},
+    "chat_page": {
+        "or": "yoki",
+        "to_use_the_chat": "chatdan foydalanish",
+        "chat_with_me": "Mening bilan chat qiling",
+        "create_room": "xona yaratish",
+        "connect_to_another_room": "Boshqa xonaga ulanish",
+        "no_rooms_yet": "Hali xona yo'q",
+        "no_messages_yet": "Hali xabar yo'q",
+        "saved_messages": "Saqlangan xabarlar",
+        "wait": "kuting",
+        "loading": "yuklanmoqda",
+        "trying_to_reconnect": "qayta ulanishga harakat qilinmoqda",
+        "retry": "qayta urinib ko'ring",
+        "open_rooms": "ochiq xonalar",
+        "you": "Siz",
+        "online": "onlayn",
+        "last_seen_recently": "so'nggi marta yaqinda ko'rilgan",
+        "members": "a'zolar",
+        "member": "a'zo",
+        "creator": "yaratuvchi",
+        "admin": "administrator",
+        "created_at": "yaratilgan",
+        "username": "foydalanuvchi nomi",
+        "email": "elektron pochta",
+        "description": "ta'rif",
+        "link": "havola",
+        "link_copied": "havola nusxalandi",
+        "message_menu": {
+            "copy_message": "xabarni nusxalash",
+            "copy_raw_text": "xom matnni nusxalash",
+            "cancel_sending": "yuborishni bekor qilish",
+            "print_details": "ma'lumotlarni chop etish",
+            "select_message": "xabarni tanlash",
+            "reply_to_message": "xabarga javob berish",
+            "edit_message": "xabarni tahrirlash",
+            "delete_message": "xabarni o'chirish"
+        }
+    },
+    "datetime": {
+        "today": "bugun",
+        "yesterday": "kecha",
+        "week": {
+            "monday": "Dushanba",
+            "tuesday": "Seshanba",
+            "wednesday": "Chorshanba",
+            "thursday": "Payshanba",
+            "friday": "Juma",
+            "saturday": "Shanba",
+            "sunday": "Yakshanba"
+        },
+        "month": {
+            "january": "Yanvar",
+            "february": "Fevral",
+            "march": "Mart",
+            "april": "Aprel",
+            "may": "May",
+            "june": "Iyun",
+            "july": "Iyul",
+            "august": "Avgust",
+            "september": "Sentabr",
+            "october": "Oktabr",
+            "november": "Noyabr",
+            "december": "Dekabr"
+        }
+    }
+}

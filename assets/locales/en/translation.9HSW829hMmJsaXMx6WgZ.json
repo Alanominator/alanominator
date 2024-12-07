@@ -1,0 +1,211 @@
+{
+    "test": "en_test",
+    "nav": {
+        "main": "main",
+        "portfolio": "portfolio",
+        "about_me": "about me",
+        "contact_me": "contact me"
+    },
+    "menu": {
+        "greeting": "Hello, {{name}}",
+        "go_to_chat": "Go to chat!"
+    },
+    "auth": {
+        "login": "login",
+        "register": "register",
+        "login_with": "login with",
+        "no_account_prompt": "Don't you have an account?",
+        "forgot_password": "Forgot the password?",
+        "reset_password": "Reset password",
+        "reset_password_code_prompt": "Reset password (Type the code we've just sent to your email)",
+        "reset_password_new_password_prompt": "Reset password (Type new password)",
+        "reset_password_success": "Your password successfully changed",
+        "next": "Next",
+        "finish": "Finish",
+        "cancel": "Cancel"
+    },
+    "form_input_errors": {
+        "required": "Required",
+        "invalid_email": "Invalid email format",
+        "short_password": "Password must contain {{min_length}} characters",
+        "password_matching_required": "Password and its confirmation must match"
+    },
+    "http_request_errors": {
+        "network_error": "network error"
+    },
+    "user_settings": {
+        "account": "account",
+        "privacy": "privacy",
+        "sessions": "sessions",
+        "username": "username",
+        "email": "email",
+        "first_name": "first name",
+        "last_name": "last name",
+        "description": "description",
+        "email_visible": "email visilbe",
+        "change_password": "change password",
+        "see_sessoins": "see sessions",
+        "logout": "logout",
+        "logout_all": "logout all",
+        "logout_other": "logout other"
+    },
+    "main_page": {
+        "intro": {
+            "representment": "Python fullstack web-developer",
+            "scroll_down": "scroll down"
+        },
+        "main_info": {
+            "download_resume": "Download resume",
+            "resume_extensions_info": "Resume is available in several extensons",
+            "download_resume_in": "Download resume in",
+            "professional_summary": {
+                "hello_i_am": "Hello. I'm",
+                "alan": "Alan",
+                "hello_who_am_i": "I am a developer most\n based on creating web-applications. I develop",
+                "frontend": "adaptive single-page or multi-page applications with different technologies like react, gulp, jinja2  and so on or just use clear html, css, js (if it's needed). In web-application I develop not only interface, also I write logic of interaction with frontend, processing data, rendering data, requests to server, api.",
+                "backend": "web-servers. I set up RESTful api, ServerSiteRendering, websockets and so on. The main stack is fastapi and also I used to use django.",
+                "databases": "databases. Creating the design of tables structure/ queries...",
+                "parsing": "web-sites data scraping (parsing). Extraction needed data from sites with queries, processing them and saving into needed format (.txt, .csv, .json).",
+                "bots": "bots. Social networks tasks automatization."
+            },
+            "titles": {
+                "technical_skills": "Technical skills",
+                "languages": "Languages",
+                "libraries_and_frameworks": "Most used libraries and frameworks",
+                "databases": "Databases",
+                "instruments": "Instruments",
+                "operation_systems": "Operation systems",
+                "social_networks": "Social networks",
+                "hobbies_and_interests": "Hobbies and interests"
+            },
+            "technical_skills": {
+                "algorithms": "algorithms",
+                "data_structures": "data structures",
+                "frontend": "frontend",
+                "backend": "backend",
+                "databases": "databases",
+                "parsing": "parsing",
+                "bots": "bots"
+            },
+            "skill_item_hints": {
+                "html": "The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.",
+                "css": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. Using SCSS, we can add any additional functionality to CSS such as nesting, mixin, variables, and more. All these additional functionalities can make writing CSS much easier and faster as compared to writing the traditional CSS.",
+                "js": "JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.",
+                "python": "JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.",
+                "typescript": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript.",
+                "sql": "Structured query language (SQL) is a standard language for database creation and manipulation. It's a domain-specific language used to manage data, especially in a relational database management system. It is particularly useful in handling structured data, i.e., data incorporating relations among entities and variables.",
+                "react": "React is an open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies. React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js",
+                "fastapi": "FastAPI is a modern, high-performance web framework for building APIs with Python 3.6+ based on standard Python type hints. It automatically generates interactive API documentation and supports asynchronous programming, making it suitable for high-concurrency applications. FastAPI is built on top of Starlette for the web parts and Pydantic for data validation.",
+                "celery": "A Celery system can consist of multiple workers and brokers, giving way to high availability and horizontal scaling. Celery is written in Python, but the protocol can be implemented in any language. In addition to Python there’s node-celery for Node.js, a PHP client, gocelery for golang, and rusty-celery for Rust.",
+                "django": "Django is a Python-based free and open-source web framework that follows the model–template–views architectural pattern. It is maintained by the Django Software Foundation, an independent organization established in the US as a 501 non-profit. Django's primary goal is to ease the creation of complex, database-driven websites",
+                "aiogram": "aiogram is a fully asynchronous framework for Telegram Bot API",
+                "pyrogram": "Pyrogram is a Python library for interacting with the Telegram API, designed for building Telegram bots and client applications. It provides a simple and efficient interface for sending messages, managing chats, and handling updates. Pyrogram supports both synchronous and asynchronous programming, allowing developers to create responsive applications. It is built on top of the Telegram API and offers features like user authentication, message handling, and media uploads, making it a powerful tool for Telegram bot development.",
+                "postgres": "PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.",
+                "git": "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include SPEED, data integrity, and support for distributed, non-linear workflows",
+                "docker": "Docker Python is an open-source tool and a standard shipping container. This tool is used for automating the deployment of any application inside a software container. Consider a scenario when we develop our application providing all the dependencies like database, web server, and other types of libraries and notice that our web application is",
+                "rabbitmq": "RabbitMQ is an open-source message broker that facilitates communication between applications by sending messages between them. It implements the Advanced Message Queuing Protocol (AMQP) and supports various messaging patterns, including publish/subscribe and request/reply. RabbitMQ is designed for reliability, scalability, and flexibility, allowing developers to build distributed systems and microservices that can handle high-throughput messaging.",
+                "redis": "Redis is an open-source, in-memory data structure store used as a database, cache, and message broker. It supports various data types, including strings, hashes, lists, sets, and more. Redis is known for its high performance and low latency, making it ideal for real-time applications. It also provides features like persistence, replication, and pub/sub messaging, allowing developers to build scalable and efficient applications.",
+                "vscode": "Visual Studio Code (VSCode) is a free, open-source code editor developed by Microsoft. It supports multiple programming languages and offers features like syntax highlighting, debugging, version control integration, and extensions for enhanced functionality. VSCode is highly customizable, allowing developers to tailor their development environment to their needs. Its built-in terminal and support for remote development make it a popular choice among developers for various programming tasks.",
+                "linux": "Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds.",
+                "windows": "Microsoft Windows is a product line of proprietary graphical operating systems developed and marketed by Microsoft."
+            },
+            "languages": {
+                "languages": {
+                    "russian": "Russian",
+                    "english": "English",
+                    "spanish": "Spanish",
+                    "uzbek": "Uzbek"
+                },
+                "level": {
+                    "intermediate": "Intermediate",
+                    "fluent": "Fluent",
+                    "elementary": "Elementary"
+                }
+            },
+            "hobbies_and_interests": {
+                "guitar": "Guitar playing",
+                "languages": "Learning languages"
+            }
+        }
+    },
+    "portfolio_page": {
+        "filter_by_category": "Filter by category",
+        "all": "all",
+        "item": {
+            "category": "Category",
+            "look": "Look"
+        },
+        "items_content": {
+            "telegram_clone": {
+                "title": "Telegram clone"
+            }
+        }
+    },
+    "about_me_page": {},
+    "contact_me_page": {},
+    "chat_page": {
+        "or": "or",
+        "to_use_the_chat": "to use the chat",
+        "chat_with_me": "Chat with me",
+        "create_room": "create room",
+        "connect_to_another_room": "Connect to another room",
+        "no_rooms_yet": "No rooms yet",
+        "no_messages_yet": "No messages yet",
+        "saved_messages": "Saved messages",
+        "wait": "wait",
+        "loading": "loading",
+        "trying_to_reconnect": "trying_to_reconnect",
+        "retry": "retry",
+        "open_rooms": "open rooms",
+        "you": "You",
+        "online": "online",
+        "last_seen_recently": "last seen recently",
+        "members": "members",
+        "member": "member",
+        "creator": "creator",
+        "admin": "admin",
+        "created_at": "created at",
+        "username": "username",
+        "email": "email",
+        "description": "description",
+        "link": "link",
+        "link_copied": "link copied",
+        "message_menu": {
+            "copy_message": "copy message",
+            "copy_raw_text": "copy raw text",
+            "cancel_sending": "cancel sending",
+            "print_details": "print details",
+            "select_message": "select message",
+            "reply_to_message": "reply to message",
+            "edit_message": "edit message",
+            "delete_message": "delete message"
+        }
+    },
+    "datetime": {
+        "today": "today",
+        "yesterday": "yesterday",
+        "week": {
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday",
+            "sunday": "Sunday"
+        },
+        "month": {
+            "january": "January",
+            "february": "February",
+            "march": "March",
+            "april": "April",
+            "may": "May",
+            "june": "June",
+            "july": "July",
+            "august": "August",
+            "september": "September",
+            "october": "October",
+            "november": "November",
+            "december": "December"
+        }
+    }
+}

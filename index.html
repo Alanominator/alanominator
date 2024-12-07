@@ -1,1 +1,42 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>React App</title></head><body tabindex="-1"><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script src="main.d63620223594e61b72e0.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Alanominator</title>
+    <script type="text/javascript">
+        const process_server_variable = (v) => {
+            v = v.trim()
+
+            if (v.startsWith("{") && v.endsWith("}")) {
+                return ''
+            }
+            return v
+        }
+
+
+        // Initial data from server
+        const sv_head = process_server_variable("{{SV_HEAD}}")
+
+        if (sv_head) {
+            document.head.innerHTML += sv_head
+        }
+
+        window.SV_SERVER_HOST = process_server_variable("{{SV_SERVER_HOST}}")
+        window.SV_IS_CONNECTION_SECURE = process_server_variable("{{SV_IS_CONNECTION_SECURE}}")
+
+    </script>
+</head>
+
+<body tabindex="-1">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="root">
+        Wait...
+    </div>
+
+    <script src="main.9HSW829hMmJsaXMx6WgZ.js"></script>
+</body>
+
+</html>

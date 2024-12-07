@@ -1,0 +1,211 @@
+{
+    "test": "prueba",
+    "nav": {
+        "main": "principal",
+        "portfolio": "portafolio",
+        "about_me": "acerca de mí",
+        "contact_me": "contáctame"
+    },
+    "menu": {
+        "greeting": "Hola, {{name}}",
+        "go_to_chat": "¡Ir al chat!"
+    },
+    "auth": {
+        "login": "iniciar sesión",
+        "register": "registrarse",
+        "login_with": "iniciar sesión con",
+        "no_account_prompt": "¿No tienes una cuenta?",
+        "forgot_password": "¿Olvidaste la contraseña?",
+        "reset_password": "Restablecer la contraseña",
+        "reset_password_code_prompt": "Restablecer la contraseña (Escribe el código que acabamos de enviar a tu correo electrónico)",
+        "reset_password_new_password_prompt": "Restablecer la contraseña (Escribe la nueva contraseña)",
+        "reset_password_success": "Tu contraseña se ha cambiado con éxito",
+        "next": "Siguiente",
+        "finish": "Finalizar",
+        "cancel": "Cancelar"
+    },
+    "form_input_errors": {
+        "required": "Requerido",
+        "invalid_email": "Formato de correo electrónico no válido",
+        "short_password": "La contraseña debe contener {{min_length}} caracteres",
+        "password_matching_required": "La contraseña y su confirmación deben coincidir"
+    },
+    "http_request_errors": {
+        "network_error": "error de red"
+    },
+    "user_settings": {
+        "account": "cuenta",
+        "privacy": "privacidad",
+        "sessions": "sesiones",
+        "username": "nombre de usuario",
+        "email": "correo electrónico",
+        "first_name": "nombre",
+        "last_name": "apellido",
+        "description": "descripción",
+        "email_visible": "correo electrónico visible",
+        "change_password": "cambiar contraseña",
+        "see_sessoins": "ver sesiones",
+        "logout": "cerrar sesión",
+        "logout_all": "cerrar sesión en todos",
+        "logout_other": "cerrar sesión en otros"
+    },
+    "main_page": {
+        "intro": {
+            "representment": "Desarrollador web fullstack de Python",
+            "scroll_down": "desplázate hacia abajo"
+        },
+        "main_info": {
+            "download_resume": "Descargar currículum",
+            "resume_extensions_info": "El currículum está disponible en varias extensiones",
+            "download_resume_in": "Descargar currículum en",
+            "professional_summary": {
+                "hello_i_am": "Hola. Soy",
+                "alan": "Alan",
+                "hello_who_am_i": "Soy un desarrollador que se basa principalmente en la creación de aplicaciones web. Desarrollo",
+                "frontend": "aplicaciones adaptativas de una sola página o multipágina con diferentes tecnologías como React, Gulp, Jinja2 y así sucesivamente, o simplemente uso HTML, CSS, JS (si es necesario). En la aplicación web, desarrollo no solo la interfaz, sino que también escribo la lógica de interacción con el frontend, procesamiento de datos, renderizado de datos, solicitudes al servidor, API.",
+                "backend": "servidores web. Configuro API RESTful, renderizado del lado del servidor, websockets y así sucesivamente. El stack principal es FastAPI y también solía usar Django.",
+                "databases": "bases de datos. Creación del diseño de la estructura de tablas / consultas...",
+                "parsing": "raspado de datos de sitios web (parsing). Extracción de datos necesarios de sitios con consultas, procesamiento y guardado en el formato necesario (.txt, .csv, .json).",
+                "bots": "bots. Automatización de tareas en redes sociales."
+            },
+            "titles": {
+                "technical_skills": "Habilidades técnicas",
+                "languages": "Idiomas",
+                "libraries_and_frameworks": "Bibliotecas y frameworks más utilizados",
+                "databases": "Bases de datos",
+                "instruments": "Instrumentos",
+                "operation_systems": "Sistemas operativos",
+                "social_networks": "Redes sociales",
+                "hobbies_and_interests": "Pasatiempos e intereses"
+            },
+            "technical_skills": {
+                "algorithms": "algoritmos",
+                "data_structures": "estructuras de datos",
+                "frontend": "frontend",
+                "backend": "backend",
+                "databases": "bases de datos",
+                "parsing": "parsing",
+                "bots": "bots"
+            },
+            "skill_item_hints": {
+                "html": "HTML (HyperText Markup Language) es el lenguaje de marcado estándar para documentos diseñados para ser mostrados en un navegador web. Puede ser asistido por tecnologías como hojas de estilo en cascada y lenguajes de scripting como JavaScript.",
+                "css": "CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado para describir la presentación de un documento escrito en un lenguaje de marcado como HTML. CSS es una tecnología fundamental de la World Wide Web, junto con HTML y JavaScript. CSS está diseñado para permitir la separación de la presentación y el contenido, incluyendo el diseño, los colores y las fuentes. Usando SCSS, podemos agregar cualquier funcionalidad adicional a CSS, como anidamiento, mixins, variables y más. Todas estas funcionalidades adicionales pueden hacer que escribir CSS sea mucho más fácil y rápido en comparación con escribir el CSS tradicional.",
+                "js": "JavaScript, a menudo abreviado como JS, es un lenguaje de programación que es una de las tecnologías fundamentales de la World Wide Web, junto con HTML y CSS. Más del 97% de los sitios web utilizan JavaScript del lado del cliente para el comportamiento de las páginas web, a menudo incorporando bibliotecas de terceros.",
+                "python": "Python es un lenguaje de programación que es una de las tecnologías fundamentales de la World Wide Web, junto con HTML y CSS. Más del 97% de los sitios web utilizan Python del lado del cliente para el comportamiento de las páginas web, a menudo incorporando bibliotecas de terceros.",
+                "typescript": "TypeScript es un lenguaje de programación desarrollado y mantenido por Microsoft. Es un superconjunto sintáctico estricto de JavaScript y agrega tipado estático opcional al lenguaje. Está diseñado para el desarrollo de aplicaciones grandes y se transpila a JavaScript.",
+                "sql": "SQL (Structured Query Language) es un lenguaje estándar para la creación y manipulación de bases de datos. Es un lenguaje específico de dominio utilizado para gestionar datos, especialmente en un sistema de gestión de bases de datos relacional. Es particularmente útil para manejar datos estructurados, es decir, datos que incorporan relaciones entre entidades y variables.",
+                "react": "React es una biblioteca de JavaScript de código abierto para construir interfaces de usuario basadas en componentes de UI. Es mantenida por Meta y una comunidad de desarrolladores y empresas individuales. React puede usarse como base en el desarrollo de aplicaciones de una sola página, móviles o renderizadas en el servidor con frameworks como Next.js.",
+                "fastapi": "FastAPI es un marco web moderno y de alto rendimiento para construir APIs con Python 3.6+ basado en las sugerencias de tipo estándar de Python. Genera automáticamente documentación interactiva de la API y admite programación asíncrona, lo que lo hace adecuado para aplicaciones de alta concurrencia. FastAPI se construye sobre Starlette para las partes web y Pydantic para la validación de datos.",
+                "celery": "Un sistema Celery puede consistir en múltiples trabajadores y corredores, lo que da lugar a alta disponibilidad y escalado horizontal. Celery está escrito en Python, pero el protocolo puede implementarse en cualquier lenguaje. Además de Python, hay node-celery para Node.js, un cliente PHP, gocelery para golang y rusty-celery para Rust.",
+                "django": "Django es un marco web gratuito y de código abierto basado en Python que sigue el patrón arquitectónico modelo-vista-plantilla. Es mantenido por la Fundación de Software Django, una organización independiente establecida en EE. UU. como una organización sin fines de lucro 501. El objetivo principal de Django es facilitar la creación de sitios web complejos impulsados por bases de datos.",
+                "aiogram": "aiogram es un marco completamente asíncrono para la API de Telegram Bot.",
+                "pyrogram": "Pyrogram es una biblioteca de Python para interactuar con la API de Telegram, diseñada para construir bots y aplicaciones cliente de Telegram. Proporciona una interfaz simple y eficiente para enviar mensajes, gestionar chats y manejar actualizaciones. Pyrogram admite programación tanto sincrónica como asíncrona, lo que permite a los desarrolladores crear aplicaciones receptivas. Se construye sobre la API de Telegram y ofrece características como autenticación de usuarios, manejo de mensajes y carga de medios, lo que lo convierte en una herramienta poderosa para el desarrollo de bots de Telegram.",
+                "postgres": "PostgreSQL, también conocido como Postgres, es un sistema de gestión de bases de datos relacional gratuito y de código abierto que enfatiza la extensibilidad y el cumplimiento de SQL.",
+                "git": "Git es un software para rastrear cambios en cualquier conjunto de archivos, generalmente utilizado para coordinar el trabajo entre programadores que desarrollan colaborativamente código fuente durante el desarrollo de software. Sus objetivos incluyen VELOCIDAD, integridad de datos y soporte para flujos de trabajo distribuidos y no lineales.",
+                "docker": "Docker Python es una herramienta de código abierto y un contenedor estándar de envío. Esta herramienta se utiliza para automatizar el despliegue de cualquier aplicación dentro de un contenedor de software. Considera un escenario en el que desarrollamos nuestra aplicación proporcionando todas las dependencias como base de datos, servidor web y otros tipos de bibliotecas y notamos que nuestra aplicación web es",
+                "rabbitmq": "RabbitMQ es un corredor de mensajes de código abierto que facilita la comunicación entre aplicaciones enviando mensajes entre ellas. Implementa el Protocolo Avanzado de Cola de Mensajes (AMQP) y admite varios patrones de mensajería, incluidos publicación/suscripción y solicitud/respuesta. RabbitMQ está diseñado para la confiabilidad, escalabilidad y flexibilidad, lo que permite a los desarrolladores construir sistemas distribuidos y microservicios que pueden manejar mensajería de alto rendimiento.",
+                "redis": "Redis es un almacén de estructuras de datos en memoria de código abierto utilizado como base de datos, caché y corredor de mensajes. Admite varios tipos de datos, incluidas cadenas, hashes, listas, conjuntos y más. Redis es conocido por su alto rendimiento y baja latencia, lo que lo hace ideal para aplicaciones en tiempo real. También proporciona características como persistencia, replicación y mensajería pub/sub, lo que permite a los desarrolladores construir aplicaciones escalables y eficientes.",
+                "vscode": "Visual Studio Code (VSCode) es un editor de código gratuito y de código abierto desarrollado por Microsoft. Admite múltiples lenguajes de programación y ofrece características como resaltado de sintaxis, depuración, integración de control de versiones y extensiones para mejorar la funcionalidad. VSCode es altamente personalizable, lo que permite a los desarrolladores adaptar su entorno de desarrollo a sus necesidades. Su terminal integrada y soporte para desarrollo remoto lo convierten en una opción popular entre los desarrolladores para diversas tareas de programación.",
+                "linux": "Linux es una familia de sistemas operativos similares a Unix de código abierto basados en el núcleo de Linux, un núcleo de sistema operativo lanzado por primera vez el 17 de septiembre de 1991 por Linus Torvalds.",
+                "windows": "Microsoft Windows es una línea de sistemas operativos gráficos propietarios desarrollados y comercializados por Microsoft."
+            },
+            "languages": {
+                "languages": {
+                    "russian": "Ruso",
+                    "english": "Inglés",
+                    "spanish": "Español",
+                    "uzbek": "Uzbeco"
+                },
+                "level": {
+                    "intermediate": "Intermedio",
+                    "fluent": "Fluido",
+                    "elementary": "Elemental"
+                }
+            },
+            "hobbies_and_interests": {
+                "guitar": "Tocar la guitarra",
+                "languages": "Aprender idiomas"
+            }
+        }
+    },
+    "portfolio_page": {
+        "filter_by_category": "Filtrar por categoría",
+        "all": "todo",
+        "item": {
+            "category": "Categoría",
+            "look": "Ver"
+        },
+        "items_content": {
+            "telegram_clone": {
+                "title": "Clon de Telegram"
+            }
+        }
+    },
+    "about_me_page": {},
+    "contact_me_page": {},
+    "chat_page": {
+        "or": "o",
+        "to_use_the_chat": "usar el chat",
+        "chat_with_me": "Chatea conmigo",
+        "create_room": "crear sala",
+        "connect_to_another_room": "Conectar a otra sala",
+        "no_rooms_yet": "Aún no hay salas",
+        "no_messages_yet": "Aún no hay mensajes",
+        "saved_messages": "Mensajes guardados",
+        "wait": "esperar",
+        "loading": "cargando",
+        "trying_to_reconnect": "intentando reconectar",
+        "retry": "intentar de nuevo",
+        "open_rooms": "salas abiertas",
+        "you": "Tú",
+        "online": "en línea",
+        "last_seen_recently": "última vez visto recientemente",
+        "members": "miembros",
+        "member": "miembro",
+        "creator": "creador",
+        "admin": "administrador",
+        "created_at": "creado en",
+        "username": "nombre de usuario",
+        "email": "correo electrónico",
+        "description": "descripción",
+        "link": "enlace",
+        "link_copied": "enlace copiado",
+        "message_menu": {
+            "copy_message": "copiar mensaje",
+            "copy_raw_text": "copiar texto sin formato",
+            "cancel_sending": "cancelar envío",
+            "print_details": "imprimir detalles",
+            "select_message": "seleccionar mensaje",
+            "reply_to_message": "responder al mensaje",
+            "edit_message": "editar mensaje",
+            "delete_message": "eliminar mensaje"
+        }
+    },
+    "datetime": {
+        "today": "hoy",
+        "yesterday": "ayer",
+        "week": {
+            "monday": "Lunes",
+            "tuesday": "Martes",
+            "wednesday": "Miércoles",
+            "thursday": "Jueves",
+            "friday": "Viernes",
+            "saturday": "Sábado",
+            "sunday": "Domingo"
+        },
+        "month": {
+            "january": "Enero",
+            "february": "Febrero",
+            "march": "Marzo",
+            "april": "Abril",
+            "may": "Mayo",
+            "june": "Junio",
+            "july": "Julio",
+            "august": "Agosto",
+            "september": "Septiembre",
+            "october": "Octubre",
+            "november": "Noviembre",
+            "december": "Diciembre"
+        }
+    }
+}
